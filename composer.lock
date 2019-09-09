@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8632601e732b90e65d0d64837f5a7267",
+    "content-hash": "d276bc9e17c169d5c9e2db7750b52a49",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -564,6 +564,73 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "ibonly/laravel-accountkit",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andela-iadeniyi/laravel-accountkit.git",
+                "reference": "12f1bceec7a93083e6c9df0038469c088703a4db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andela-iadeniyi/laravel-accountkit/zipball/12f1bceec7a93083e6c9df0038469c088703a4db",
+                "reference": "12f1bceec7a93083e6c9df0038469c088703a4db",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2",
+                "illuminate/support": "5.*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpcov": "2.*",
+                "phpunit/phpunit": "4.*",
+                "satooshi/php-coveralls": "^1.0",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "Ibonly\\FacebookAccountKit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Surajudeen Akande",
+                    "email": "surajudeen.akande@andela.com"
+                },
+                {
+                    "name": "Ibraheem Adeniyi",
+                    "email": "ibonly01@gmail.com"
+                }
+            ],
+            "description": "Two factor authentication using facebook account kit",
+            "keywords": [
+                "account kit",
+                "accountkit",
+                "facebook",
+                "facebook account kit",
+                "github",
+                "laravel",
+                "laravel facebook account kit",
+                "laravel-accountkit",
+                "login",
+                "open source",
+                "php",
+                "register"
+            ],
+            "time": "2017-10-06T04:16:30+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",

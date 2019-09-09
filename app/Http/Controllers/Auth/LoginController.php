@@ -7,6 +7,8 @@ use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
+use AccountKit;
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -72,4 +74,10 @@ class LoginController extends Controller
         return redirect($this->redirectTo);
         // $user->token;
     }
+
+    // public function otpLogin(Request $request)
+    // {
+    //     $otpLogin = AccountKit::accountKitData($request->code);
+    //     dd($otpLogin);
+    // }
 }

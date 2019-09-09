@@ -166,6 +166,7 @@ return [
          * Package Service Providers...
          */
         Laravel\Socialite\SocialiteServiceProvider::class,
+        Ibonly\FacebookAccountKit\FacebookAccountKitServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -230,6 +231,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'AccountKit' => Ibonly\FacebookAccountKit\Facades\FacebookAccountKitFacade::class,
 
     ],
 
