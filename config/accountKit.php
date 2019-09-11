@@ -14,4 +14,6 @@ return [
     'appId' => env('ACCOUNTKIT_APP_ID'),
 
     'appSecret' => env('ACCOUNTKIT_APP_SECRET'),
+    'end_point'        => env('END_POINT'),
+    'tokenExchangeUrl' => env('TOKEN_EXCHANGE'),
 ];
