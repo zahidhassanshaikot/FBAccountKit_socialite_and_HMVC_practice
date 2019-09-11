@@ -36,6 +36,7 @@ class CustomerServiceProvider extends ServiceProvider
 
         //  dd(config());
         $this->loadViewsFrom(__DIR__.$ds.'..'.$ds.'resources'.$ds.'views', 'Customer');
+        $this->loadMigrationsFrom(__DIR__.$ds.'..'.$ds.'database'.$ds.'migrations');
      
     }
 }

@@ -42,6 +42,7 @@
         },
         "classmap": [
             "database/seeds",
+            "app/modules/customers/database/seeds",
             "database/factories"
         ]
     },
