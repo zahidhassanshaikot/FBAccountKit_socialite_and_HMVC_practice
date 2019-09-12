@@ -3,6 +3,8 @@
 use Illuminate\Support\Str;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use App\User;
+use Customer\Models\Customer as CS;
 
 class Customer extends Seeder
 {
@@ -13,10 +15,12 @@ class Customer extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([
+        
+        CS::create([
             'name' => Str::random(10),
-            'email' => Str::random(10).'@gmail.com',
-            'password' => bcrypt('password'),
+            // 'email' => Str::random(10),
+            // 'password' => bcrypt('123456')
+            
         ]);
     }
 }
